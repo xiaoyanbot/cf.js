@@ -1,16 +1,14 @@
 // cf.js v1.0
-
 // 公共方法JS 
 
 var cf = function(){};
 
 /*
-
+ *
  * 获取参数的公共方法
  * 同时获取参数?和#号
-
+ *
 */
-
 cf.getParam = function (variable)
 {
        var querySearch = window.location.search.substring(1);
