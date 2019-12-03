@@ -1,12 +1,18 @@
+<meta charset="utf-8">
 
+在本页增加参数测试
+<br>
+如 ?a=1#b=2
+<br>
+如 ?a=1&b=2
+<br>
+如 #a=1&b=2
+<br>
 <script src="cf.js"></script>
 
 <script>
-
-var a = cf.getParam("d");
-var c = cf.getParam("c");
-alert(a);
-alert(c);
-
-
+var a = cf.getParam("a");
+var b = cf.getParam("b");
+alert("参数a ==>" + a);
+alert("参数b ==>" + b);
 </script>
